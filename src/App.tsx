@@ -44,7 +44,7 @@ function App() {
             className="rounded p-2 m-1 shadow hover:shadow-[0_0_7px_red] bg-green-200 hover:scale-110"
           >
             <img src={pokemon.image} />
-            <h6>{pokemon.name}</h6>
+            <h6 className='text-black'>{pokemon.name}</h6>
           </div>
         ))}
       </div>
